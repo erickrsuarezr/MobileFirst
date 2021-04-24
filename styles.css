@@ -251,9 +251,6 @@ main{
     color: var(--warm-black);
 }
 
-.currency-table--date p b{
-    font-weight: 700;
-}
 .main-commission-table{
     width: 70%;
     min-width: 23.5rem;
@@ -333,8 +330,4 @@ main{
     line-height: 1.5rem;
     font-weight: 400;
     color: var(--warm-black);
-}
-
-.commission-table--date p b{
-    font-weight: 700;
 }
