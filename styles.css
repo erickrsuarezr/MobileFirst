@@ -270,3 +270,46 @@ main{
     font-weight: 400;
     color: var(--warm-black);
 }
+
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    min-width: 32rem;
+    height: auto;
+    padding:1.6rem;
+    background-color: var(--warm-black);
+}
+
+.product-detail--batata-logo{
+    position: absolute;
+    width: 4.057rem;
+    height: 2.401rem;
+    top: -1.2005rem;
+    left: calc(50% - 2.0285rem);
+    background-image: url('/assets/imgs/batataalone.svg');
+}
+
+.product-detail--title{
+    width: 90%;
+    min-width: 28.8rem;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5.099rem;
+    text-align: center;
+}
+
+.product-detail--title h2{
+    margin-bottom: 2.4rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.product-detail--title p{
+    margin-bottom: 3.2rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #808080;
+}
