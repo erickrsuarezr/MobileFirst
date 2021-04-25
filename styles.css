@@ -313,3 +313,83 @@ main{
     font-weight: 500;
     color: #808080;
 }
+
+.product-detail--card,
+.hide-detail--card,
+.coin-detail--card,
+.check-detail--card{
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 40rem;
+    height: 15rem;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    background-color: #282623;
+    border-radius: .5rem;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.16);
+}
+
+.product-detail--card .clock{
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-bottom: 1rem;
+    background-image: url(/assets/icons/reloj.svg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.hide-detail--card .hide{
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-bottom: 1rem;
+    background-image: url(/assets/icons/ojo.svg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.coin-detail--card .coin{
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-bottom: 1rem;
+    background-image: url(/assets/icons/dollar.svg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.check-detail--card .check{
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-bottom: 1rem;
+    background-image: url(/assets/icons/check.svg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.product--card-title,
+.hide--card-title,
+.coin--card-title,
+.check--card-title{
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+    color: var(--just-white);
+}
+
+.product--card-body,
+.hide--card-body,
+.coin--card-body,
+.check--card-body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
