@@ -444,7 +444,9 @@ main{
      color: #757575;
 }
 
-.plans-container--card{
+.plans-container--card,
+.month-container--card,
+.half-container--card{
     position: relative;
     width: 60%;
     min-width: 19rem;
@@ -473,7 +475,9 @@ main{
     color: var(--just-white);
 }
 
-.plan-card--title{
+.plan-card--title,
+.month-card--title,
+.half-card--title{
     padding-top: 3.1rem;
     font-size: 1.4rem;
     font-weight: 500;
@@ -481,7 +485,9 @@ main{
     color: black;
 }
 
-.plan-card--price{
+.plan-card--price,
+.month-card--price,
+.half-card--price{
     position: relative;
     padding: .8rem 0;
     font-size: 5.2rem;
@@ -492,7 +498,9 @@ main{
     color: black;
 }
 
-.plan-card--price span{
+.plan-card--price span,
+.month-card--price span,
+.half-card--price span{
     position: absolute;
     top: calc(26% - .39rem);
     left: calc(25%);
@@ -503,7 +511,13 @@ main{
     line-height: 1.5rem;
 }
 
-.plan-card--saving{
+.half-card--price span{
+    left: calc(20%);
+}
+
+.plan-card--saving,
+.month-card--saving,
+.half-card--saving{
     padding: .8rem 0;
     font-family: "Inter",sans-serif;
     font-weight: 500;
@@ -512,7 +526,9 @@ main{
     color: #757575;
 }
 
-.plan-card--ca{
+.plan-card--ca,
+.month-card--ca,
+.half-card--ca{
     width: 15rem;
     height: 4.8rem;
     margin-top: .8rem;
@@ -526,7 +542,9 @@ main{
     color: var(--warm-black);
 }
 
-.plan-card--ca span{
+.plan-card--ca span,
+.month-card--ca span,
+.half-card--ca span{
     display: inline-block;
     width: 2.4rem;
     height: 2.4rem;
