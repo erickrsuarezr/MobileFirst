@@ -412,3 +412,34 @@ main{
     line-height: 2.6rem;
     color: var(--just-white);
 }
+
+.main-plans-container{
+    width: 100%;
+    min-width: 32rem;
+    padding-bottom: 6.4rem;
+    text-align: center;
+}
+
+.plans--title{
+    width: 90%;
+    min-width: 28.8rem;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+.plans--title h2{
+    padding-top: 6.4rem;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    color: var(--warm-black);
+}
+
+.plans--title p{
+     padding-top: 2.4rem;
+     font-size: 1.4rem;
+     line-height: 1.8rem;
+     font-weight: 500;
+     color: #757575;
+}
